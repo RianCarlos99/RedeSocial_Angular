@@ -1,0 +1,42 @@
+header {
+  display: flex;
+  align-items: center;
+  padding: 0 2.5rem;
+  box-shadow: 0px 1px 4px 1px #00000030;
+  height: 8.8rem;
+  font-weight: 400;
+}
+
+h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+a:hover {
+  color: #ab0636;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  max-width: 300px;
+  font-size: 1.4rem;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  color: black;
+}
+
+.brand img {
+  width: 7rem;
+}
